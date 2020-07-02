@@ -48,7 +48,7 @@ def main():
 			if bf in numbers:
 				msg += keypad[bf][(count-1)]
 			else:
-				msg += bf
+				msg += bf * count
 			bf = i
 			count = 1
 	print("\nMessage:", msg)
